@@ -1,0 +1,1 @@
+g++ -Ofast -march=native  -I/usr/local/lib -L/usr/local/lib:/usr/lib base.cpp address.cpp mnemonic.cpp main.cpp -o vain -lsodium -lssl -lcrypto -lpthread
