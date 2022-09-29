@@ -1,7 +1,5 @@
 #include "base.h"
 
-// Surely I should write an implementation that avoids the almost
-// cutnpaste job here.
 
 std::string b32_encode(const bytes& in) {
   std::string out;
